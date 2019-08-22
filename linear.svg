@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+        </linearGradient>
+    </defs>
+    <ellipse cx="200" cy="70" fill="url(#grad1)" rx="85" ry="55"/>
+    <defs>
+        <linearGradient id="grad2" x1="0%" x2="0%" y1="0%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+        </linearGradient>
+    </defs>
+    <ellipse cx="400" cy="200" fill="url(#grad2)" rx="85" ry="55"/>
+    <defs>
+        <linearGradient id="grad3" x1="0%" x2="100%" y1="0%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+        </linearGradient>
+    </defs>
+    <ellipse cx="500" cy="300" fill="url(#grad3)" rx="85" ry="55"/>
+    <text x="150" y="86" fill="#ffffff" font-family="Verdana" font-size="45">
+        SVG
+    </text>
+</svg>

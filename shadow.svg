@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<!--<defs> <filter id="f1" width="200%" height="200%" x="0" y="0"> <feOffset dx="20" dy="20" in="SourceGraphic" result="offOut"/> <feBlend in="SourceGraphic" in2="offOut" mode="normal"/> </filter> </defs> <rect width="90" height="90" fill="yellow" stroke="green" stroke-width="3" filter="url(#f1)"/> <defs> <filter id="f1" width="200%" height="200%" x="0" y="0"> <feOffset dx="20" dy="20" in="SourceGraphic" result="offOut"/> <feGaussianBlur in="offOut" result="blurOut" stdDeviation="10"/> <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/> </filter> </defs> <rect width="90" height="90" fill="yellow" stroke="green" stroke-width="3" filter="url(#f1)"/>-->
+    <defs>
+        <filter id="f1" width="200%" height="200%" x="0" y="0">
+            <feOffset dx="20" dy="20" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="10"/>
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+        </filter>
+    </defs>
+    <rect width="90" height="90" fill="yellow" stroke="green" stroke-width="3" filter="url(#f1)"/>
+</svg>
